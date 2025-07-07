@@ -5,6 +5,9 @@ spring:
     url: jdbc:postgresql://localhost:5432/ics
     username: postgres
     password: postgres
+  sql:
+   init:
+     mode: always
   ai:
     openai:
       api-key: ${OPENAI_API_KEY}
